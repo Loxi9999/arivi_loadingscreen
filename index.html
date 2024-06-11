@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css">
+    <link rel="icon" type="image/x-icon" href="https://cdn.discordapp.com/attachments/1213540666248790106/1213543357884665907/SKbxFHP.png?ex=65f5db53&is=65e36653&hm=2aa639c5770936641a525266897274b64661e17e8a7e7d9944c8a30595d532eb&">
+    <title>AriviRP</title>
+</head>
+
+<body>
+    <div id="container">
+        <img id="cursor" src="assets/image/cursor.png" />
+        <div class="kutas">
+            <input type="text" id="linkYT" name="Link YT" placeholder="Aby zmienić muzykę, wklej link z yt."></input>
+            <button onclick="playAudio()" id="linkYT1"><i class="fa fa-play"></i></button>
+        </div>
+        <div class="range">
+            <i class="fa-solid fa-volume-low"></i>
+            <input type="range" min="0" max="100" id="volumeSlider">
+            <i class="fa-solid fa-volume"></i>
+        </div>
+        <div id="player"></div>
+        <div id="background2"></div>
+        <div id="background"></div>
+        <div class="container">
+            <img src="./assets/image/logo.png" class="main-loading-sign">
+
+        </div>
+        <div class="shortcuts">
+            <div class="links discord"><i class="fa-brands fa-discord"></i>discord.gg/arivirp</div>
+            <div class="links website"><i class="fa-solid fa-dollar-sign"></i>tebex.arivirp.pl</div>
+            <div class="links website"><i class="fa-solid fa-globe"></i>arivirp.pl</div>
+        </div>
+    </div>
+    </div>
+    <script src="app.js" type="text/javascript"></script>
+    <script src="yt.js" type="text/javascript"></script>
+</body>
+
+</html>
